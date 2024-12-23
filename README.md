@@ -22,3 +22,9 @@ URL: /eVoting/php/admin-login.php
 Username: Admin7557
 Password: Admin@7557
 
+----------------------------------------------------------------
+
+![Homepage](https://github.com/user-attachments/assets/06458071-b871-4db1-85fa-e5e3ee478fa7)
+
+![Votepage](https://github.com/user-attachments/assets/4f46e606-6cc5-406a-b833-bc752cdd3f41)
+
