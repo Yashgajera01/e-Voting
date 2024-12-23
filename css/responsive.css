@@ -1,0 +1,89 @@
+@media only screen and (max-width:850px) {
+
+    .navbar {
+        flex-direction: column;
+
+    }
+
+    .nav-list {
+        flex-direction: column;
+        background-color: rgb(102, 102, 102);
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+        padding-top: 22px;
+    }
+
+    .navbar-scrolled {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .box-main {
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .notice-img{
+        width: 120px;
+    }
+
+    .notice-paras {
+        width: 140%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoSection {
+        flex-direction: column-reverse;
+        height: 70%;
+    }
+
+    .info-paras {
+        max-width: 145%;
+        padding: 0px 18px;
+        margin: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-sm {
+        font-size: 16px;
+    }
+
+    .text-big {
+        font-size: 28px;
+    }
+
+    .info-paras .secTag {
+        margin-bottom: 18px
+    }
+
+    .info-img {
+        margin: 18px 0px;
+    }
+
+    .form {
+        max-width: 218px;
+        margin: 5px auto;
+    }
+
+    .text-footer {
+        padding: 10px;
+    }
+
+    .h-nav-resp {
+        height: 375px;
+    }
+
+    .v-class {
+        opacity: 0;
+        display: none;
+    }
+    
+}

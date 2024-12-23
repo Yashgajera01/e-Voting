@@ -1,0 +1,16 @@
+
+FIRST YOU HAVE TO EXTRACT PROJECT AND PUT PROJECT FOLDER IN "htdocs".
+
+THEN, YOU HAVE TO CREATE A DATABASE NAMING "e-voting7557". 
+
+THEN, IMPORT THE SQL FILE(DATABASE) AND RUN.
+WITHOUT THE DATABASE THE PROJECT WON'T RUN.
+
+----------------------------------------------------------------
+ADMIN PANEL LOGIN DETAILS
+ 
+Username: Admin7557
+Password: Admin@7557
+
+
+

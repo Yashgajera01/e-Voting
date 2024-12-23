@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.notice{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    height: 90%;
+}
+
+.notice-form {
+
+    width: 100%;
+    margin: 12px;
+    display: -webkit-box;
+    /* display: flex; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    /* flex-direction: column; */
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+  }
+  .notice-form h1 {
+    padding: 35px 35px 0 35px;
+    font-weight: 1000;
+    color: black;
+  }
+  .notice-form .content {
+    padding: 35px;
+    text-align: center;
+  }
+  .notice-form .input-field {
+    padding: 12px 5px;
+  }
+  .notice-form .input-field input {
+    font-size: 16px;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 10px 5px;
+    border: 0;
+    border: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    border-radius: 5px;
+  }
+
+  .notice-form .action {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+  }
+  .notice-form .action button {
+    width: 100%;
+    border: none;
+    padding: 18px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.45);
+    color: #000000;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    letter-spacing: 0.2px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    font-weight: 700;
+  }
+  
+  .notice-form .action button:hover {
+    background: rgba(255, 255, 255, 0.600);
+  }
+
+  .addcan {
+    background: #f6f5f4;
+    height: 910px;
+}
+
+
+/*results*/
+.result {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.result th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+}
+
+.result td,
+.result th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.result tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.result tr:hover {
+  background-color: #ddd;
+}
+
+.removebtn
+{
+  background-color: #666666;
+  font-weight: 500;
+  font-size: 18px;
+  color: aliceblue;
+  border-radius: 5px;
+  width: 80px;
+  height: 32px;
+}
