@@ -73,7 +73,7 @@ function sendMail($email,$v_code)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; ;       //Enable implicit TLS encryption
         $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
         
-        $mail->setFrom('onlineelectionsystem01@gmail.com', 'OnlineElectionSystem');
+        $mail->setFrom('Your Mail', 'OnlineElectionSystem');
         $mail->addAddress($email);   
             
         //Content
